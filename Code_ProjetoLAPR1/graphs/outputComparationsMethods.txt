@@ -1,0 +1,9 @@
+set term pngcairo size 1920, 1080
+set output 'C:\Users\PC\Desktop\1º ano Faculdade\1ºSemestre\Laboratório e projeto1\SOSS_Projeto\Code_ProjetoLAPR1\graphs/twoMethodsComparation.png'
+set datafile separator ';'
+set title font 'arial,22' 'Análise comparativa dos métodos de Euler e de RK4 de Dina'
+set xlabel font 'calibri,18' 'Nº de dias'
+set ylabel font 'calibri,18' 'População'
+set grid
+plot 'C:\Users\PC\Desktop\1º ano Faculdade\1ºSemestre\Laboratório e projeto1\SOSS_Projeto\Code_ProjetoLAPR1\graphs/InteractiveDinaEuler.csv' u 1:2 w lp lc 1 pt -1 lw 3 title 'S' , '' u 1:3 w lp lc 3 pt -1 lw 3 title 'I' , '' u 1:4 w lp lc 4 pt -1 lw 3 title 'R', 'C:\Users\PC\Desktop\1º ano Faculdade\1ºSemestre\Laboratório e projeto1\SOSS_Projeto\Code_ProjetoLAPR1\graphs/InteractiveDinaRK4.csv' u 1:2 w lp lc 1 pt -1 lw 3 dt 2 title 'Srk' , '' u 1:3 w lp lc 3 pt -1 lw 3 dt 2 title 'Irk' , '' u 1:4 w lp lc 4 pt -1 lw 3 dt 2 title 'Rrk' 
+replot
