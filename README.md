@@ -2,8 +2,12 @@
 
 Este projeto surgiu no âmbito da disciplina de LAPR1, onde tivemos de desenvolver uma aplicação em java, para avaliar a propagação de uma notícia falsa. Para isso tivemos de implementar o dois métodos matemáticos: o método de Euler e o método Runge Kutta 4ª ordem.
 
-## Authors
-Francisco Osório
-Miguel Ferreira
-Vasco Teixeira
-João Tavares
+## Autores 
+| Autores  |
+| ------------- | 
+| Francisco Osório  | 
+| Miguel Ferreira  |
+| Vasco Teixeira  | 
+| João Tavares  |
+| Nuno Marinho  |
+
